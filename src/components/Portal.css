@@ -1,11 +1,11 @@
 /* Portal Dashboard Styles */
 .portal-container {
   min-height: 100vh;
-  background: #f0fdf4;
+  background: #f5f7fa;
 }
 
 .portal-header {
-  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   padding: 1rem 0;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -76,7 +76,7 @@
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: 1px solid #dcfce7;
+  border: 1px solid #e1e5e9;
 }
 
 .service-card:hover {
@@ -105,13 +105,13 @@
 }
 
 .info-card {
-  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   padding: 2rem;
   border-radius: 12px;
   max-width: 600px;
   text-align: center;
-  box-shadow: 0 8px 25px rgba(16, 185, 129, 0.2);
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.2);
 }
 
 .info-card h3 {

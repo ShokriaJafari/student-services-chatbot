@@ -1,7 +1,7 @@
 /* Message Input Styles */
 .message-input-container {
   background: white;
-  border-top: 1px solid #dcfce7;
+  border-top: 1px solid #e1e5e9;
   padding: 1rem;
 }
 
@@ -22,7 +22,7 @@
   min-height: 40px;
   max-height: 100px;
   padding: 0.75rem;
-  border: 2px solid #dcfce7;
+  border: 2px solid #e1e5e9;
   border-radius: 20px;
   font-family: inherit;
   font-size: 0.9rem;
@@ -33,7 +33,7 @@
 }
 
 .message-textarea:focus {
-  border-color: #10b981;
+  border-color: #667eea;
 }
 
 .message-textarea::placeholder {
@@ -47,7 +47,7 @@
 }
 
 .send-button {
-  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   border: none;
   width: 40px;
   height: 40px;
@@ -63,7 +63,7 @@
 
 .send-button:hover:not(:disabled) {
   transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
 }
 
 .send-button:active:not(:disabled) {
